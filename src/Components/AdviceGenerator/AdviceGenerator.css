@@ -1,0 +1,345 @@
+
+@media (min-width: 375px) {
+    .dividerStyle {
+      display: flex;
+      justify-content: center;
+      margin-left: 9rem;
+      margin-top: 1rem;
+    }
+  
+    .primaryColor {
+      color: hsl(193, 38%, 86%);
+      font-size: 45px;
+      line-height: 2.375rem;
+      text-align: center;
+      letter-spacing: -0.3px;
+      font-family: "Manrope", sans-serif;
+      font-weight: 600;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 40px;
+    }
+  
+    .secondaryColor {
+      color: hsl(150, 100%, 66%);
+      font-size: 25px;
+      text-align: center;
+      margin-top: 2rem;
+      letter-spacing: 3.46px;
+      font-family: "Manrope", sans-serif;
+      font-weight: 550;
+    }
+  
+    .neutral1 {
+      color: hsl(217, 19%, 38%);
+    }
+  
+    .neutral2 {
+      background-color: hsl(217, 19%, 24%);
+      background-size: cover;
+      margin-top: 45rem;
+      margin-left: 5rem;
+      margin-right: 5rem;
+      margin-bottom: -2rem;
+      border-radius: 3%;
+      height: 350px;
+    }
+  
+    .neutral3 {
+      background-color: hsl(218, 23%, 16%);
+      background-size: cover;
+      width: 60rem;
+      height: 115rem;
+    }
+  
+    .quoteFont {
+      font-size: 28px;
+    }
+  
+    .font {
+      font-weight: 800;
+      font-family: "Dosis", sans-serif;
+      font-family: "Source Sans Pro", sans-serif;
+    }
+  
+    .button {
+      background-color: hsl(150, 100%, 66%);
+      border: none;
+      padding: 1.25rem;
+      border-radius: 50%;
+      position: relative;
+      margin-left: 25.8rem;
+      cursor: pointer;
+    }
+  
+    .button:hover {
+      box-shadow: 0px 0px 40px #53ffaa;
+      background: #53ffaa;
+      cursor: pointer;
+    }
+  
+    .dice {
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .dividerStyle {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      margin-left: 12rem;
+    }
+  
+    .primaryColor {
+      color: hsl(193, 38%, 86%);
+      font-size: 1.75rem;
+      line-height: 2.375rem;
+      text-align: center;
+      letter-spacing: -0.3px;
+      font-family: "Manrope", sans-serif;
+      font-weight: 600;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  
+    .secondaryColor {
+      color: hsl(150, 100%, 66%);
+      font-size: 15px;
+      text-align: center;
+      margin-top: 2rem;
+      letter-spacing: 3.46px;
+      font-family: "Manrope", sans-serif;
+      font-weight: 550;
+    }
+  
+    .neutral1 {
+      color: hsl(217, 19%, 38%);
+    }
+  
+    .neutral2 {
+      background-color: hsl(217, 19%, 24%);
+      margin-top: 18rem;
+      margin-left: 4rem;
+ 
+      width: 120vh;
+      border-radius: 3%;
+    }
+  
+    .neutral3 {
+      background-color: hsl(218, 23%, 16%);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 146vh;
+      width: 160vh;
+    }
+  
+    .quoteFont {
+      font-size: 28px;
+    }
+  
+    .font {
+      font-weight: 800;
+      font-family: "Dosis", sans-serif;
+      font-family: "Source Sans Pro", sans-serif;
+    }
+  
+    .button {
+      background-color: hsl(150, 100%, 66%);
+      border: none;
+      padding: 1.25rem;
+      border-radius: 50%;
+      position: relative;
+      margin-left: 27.6rem;
+      cursor: pointer;
+    }
+  
+    .button:hover {
+      box-shadow: 0px 0px 40px #53ffaa;
+      background: #53ffaa;
+      cursor: pointer;
+    }
+  
+    .dice {
+      width: 32px;
+      height: 32px;
+    }
+  }
+  
+  
+
+  @media (min-width: 1024px) {
+    .dividerStyle {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      margin-left: 12rem;
+    }
+  
+    .primaryColor {
+      color: hsl(193, 38%, 86%);
+      font-size: 1.75rem;
+      line-height: 2.375rem;
+      text-align: center;
+      letter-spacing: -0.3px;
+      font-family: "Manrope", sans-serif;
+      font-weight: 600;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  
+    .secondaryColor {
+      color: hsl(150, 100%, 66%);
+      font-size: 15px;
+      text-align: center;
+      margin-top: 2rem;
+      letter-spacing: 3.46px;
+      font-family: "Manrope", sans-serif;
+      font-weight: 550;
+    }
+  
+    .neutral1 {
+      color: hsl(217, 19%, 38%);
+    }
+  
+    .neutral2 {
+      background-color: hsl(217, 19%, 24%);
+      margin-top: 18rem;
+      margin-left: 4rem;
+ 
+      width: 120vh;
+      border-radius: 3%;
+    }
+  
+    .neutral3 {
+      background-color: hsl(218, 23%, 16%);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 146vh;
+      width: 209vh;
+    }
+  
+    .quoteFont {
+      font-size: 28px;
+    }
+  
+    .font {
+      font-weight: 800;
+      font-family: "Dosis", sans-serif;
+      font-family: "Source Sans Pro", sans-serif;
+    }
+  
+    .button {
+      background-color: hsl(150, 100%, 66%);
+      border: none;
+      padding: 1.25rem;
+      border-radius: 50%;
+      position: relative;
+      margin-left: 27.6rem;
+      cursor: pointer;
+    }
+  
+    .button:hover {
+      box-shadow: 0px 0px 40px #53ffaa;
+      background: #53ffaa;
+      cursor: pointer;
+    }
+  
+    .dice {
+      width: 32px;
+      height: 32px;
+    }
+  }
+  
+  
+  
+
+  @media (min-width: 1440px) {
+    .dividerStyle {
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      margin-left: 14rem;
+    }
+  
+    .primaryColor {
+      color: hsl(193, 38%, 86%);
+      font-size: 1.75rem;
+      line-height: 2.375rem;
+      text-align: center;
+      letter-spacing: -0.3px;
+      font-family: "Manrope", sans-serif;
+      font-weight: 600;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  
+    .secondaryColor {
+      color: hsl(150, 100%, 66%);
+      font-size: 15px;
+      text-align: center;
+      margin-top: 2rem;
+      letter-spacing: 3.46px;
+      font-family: "Manrope", sans-serif;
+      font-weight: 550;
+    }
+  
+    .neutral1 {
+      color: hsl(217, 19%, 38%);
+    }
+  
+    .neutral2 {
+      background-color: hsl(217, 19%, 24%);
+      margin-top: 11rem;
+      margin-left: 15rem;
+      margin-right: 15rem;
+      width: 120vh;
+      border-radius: 3%;
+    }
+  
+    .neutral3 {
+      background-color: hsl(218, 23%, 16%);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 105vh;
+      width: 209vh;
+    }
+  
+    .quoteFont {
+      font-size: 28px;
+    }
+  
+    .font {
+      font-weight: 800;
+      font-family: "Dosis", sans-serif;
+      font-family: "Source Sans Pro", sans-serif;
+    }
+  
+    .button {
+      background-color: hsl(150, 100%, 66%);
+      border: none;
+      padding: 1.25rem;
+      border-radius: 50%;
+      position: relative;
+      margin-left: 40rem;
+      cursor: pointer;
+    }
+  
+    .button:hover {
+      box-shadow: 0px 0px 40px #53ffaa;
+      background: #53ffaa;
+      cursor: pointer;
+    }
+  
+    .dice {
+      width: 32px;
+      height: 32px;
+    }
+  }
+  
+  
+  

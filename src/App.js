@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+// Reviewed By: Ulises Ortega
+// The app does meet the structure requirements, having component being called on the app js, its good to see your code in a different approach to the fetch. Good implementation of the browser router. Good use of the media queries displaying different features, good job!
+
+
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import AdviceGenerator from './Components/AdviceGenerator/AdviceGenerator';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<AdviceGenerator/>}></Route>
+      </Routes>
+    </BrowserRouter>
+  
   );
 }
 
